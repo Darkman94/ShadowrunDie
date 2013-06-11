@@ -7,12 +7,11 @@ config = {
     'name':'Shadowrun Reddit Die Roller Bot',
     'description': 'A project to roll the dice associated with the game Shadowrun in reddit',
     'author': 'George Barton',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
+    'url': 'https://github.com/Darkman94/ShadowrunDie',
     'author_email': 'gbarton@uwo.ca',
-    'version': '0.1',
+    'version': '1.0',
     'install_requires': ['nose', 'praw'],
-    'packages': ['NAME'],
+    'packages': ['ShadowrunDie'],
     'scripts': [],
 }
 
