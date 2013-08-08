@@ -9,8 +9,10 @@ import build_reply
 
 def runBot():
     #build the reddit agent, and login
-    r = praw.Reddit(user_agent = 'Shadowrun Die Roller v0.1 by /u/Mindflayer94')
-    r.login('Shadowrun_Die_Bot', 'pokemon')
+    #Input your User Agent here
+    r = praw.Reddit(user_agent = '')
+    #input your login info here
+    r.login('', '')
 
     #find all the comments already analyzed
     already_done = logger.buildKnownComments()
@@ -18,6 +20,7 @@ def runBot():
     #perpetually check the comments
     while True:
         #go into the subreddit and get all the comments
+        #Put your subreddit here
         subreddit = r.get_subreddit('test')
         comments = subreddit.get_comments()
 
