@@ -1,10 +1,15 @@
 #import the debugger
 import debug
 
-#A method to build the comments that the Die Roller has already swept through on a previous launch
 #TODO: Figure out why it doesn't always work
-#filename refers to the name of the log file
 def buildKnownComments(filename = r'DATA/log.txt'):
+    """A method to build the comments that the Die Roller has already swept through on a previous launch
+    
+    Parameters
+    ----------
+    filename: String
+    refers to the name of the log file
+    """
     #a variable to contain whether or not I want the bebugger running
     debug = True
     #build an empty set to contain the comments
@@ -24,11 +29,17 @@ def buildKnownComments(filename = r'DATA/log.txt'):
     #return the set, now filled with all the comments already analyzed
     return already_done
 
-#A Method to throw a comment into the log file
 #TODO: Check if this is the issue with the repetition of die rolls
-#commentId is the id of the comment that has already been comepleted, to be put into the log
-#filename is the name of the log file
 def logComment(commentId, filename= r'DATA/log.txt'):
+    """A Method to throw a comment into the log file
+    
+    Parameters
+    ----------
+    commentId: String
+    is the id of the comment that has already been comepleted, to be put into the log
+    filename: String
+    is the name of the log file
+    """
     #a varibale to determine whether or not to run the debugger
     debug = True
     #open up the file for appending
