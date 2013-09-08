@@ -8,7 +8,12 @@ import logger
 import build_reply
 
 def runBot():
-    #build the reddit agent, and login
+    """build the reddit agent, and login
+    
+    Raises
+    ------
+    ReferenceError: If the Internet gives out while the program is running
+    """
     #Input your User Agent here
     r = praw.Reddit(user_agent = '')
     #input your login info here
