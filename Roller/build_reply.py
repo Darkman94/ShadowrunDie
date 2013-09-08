@@ -3,10 +3,17 @@ import roller
 #import the debugger
 import debug
 
-#A method to build the comment to reply with
-#hasEdge indicates if the person spent edge on the roll
-#string refers to the Pool Size as a String
+
 def buildComment(hasEdge, stringPool):
+    """A method to build the comment to reply with
+    
+    Parameters
+    ----------
+    hasEdge: Boolean
+    indicates if the person spent edge on the roll
+    stringPool: String
+    refers to the Pool Size as a String
+    """
 
     #a variable to turn the debugger on and off
     debug = False
