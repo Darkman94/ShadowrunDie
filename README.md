@@ -8,7 +8,7 @@ TODO
 - [ ] Prevent the program from crashing when the host server loses internet connection
 - [ ] Fix the Debugger
 - [ ] Implement a method to support a wider range of dice rolling schemas
-- [ ] Create Documentation
+- [X] Create Documentation
 - [ ] Get the project to run straight from the root directory
 
 Installation
