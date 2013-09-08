@@ -3,10 +3,17 @@ import debug
 #import the built-in random functions to 'rol the dice'
 from random import randint
 
-#A function to roll for Shadowrun
-#num refers to the size of the pool
-#ROS refers to whether or not the die is supposed to explode
+
 def roll(num, ROS):
+    """A function to roll for Shadowrun
+    
+    Parameters
+    ----------
+    num: Int
+    refers to the size of the pool
+    ROS: Boolean
+    refers to whether or not the die is supposed to explode
+    """
     #A variable to determine whether or not I want the debugger running
     debug = False
     #a tracker for the number of successes
